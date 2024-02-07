@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class Calculator 
+public class Calculator    
 {
 
     public static void main(String[] args) 
