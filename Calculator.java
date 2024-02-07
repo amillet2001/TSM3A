@@ -10,7 +10,7 @@ public class Calculator
         int num1;
         int num2;
         String operation;
-
+     
   
         Scanner input = new Scanner(System.in);
 
