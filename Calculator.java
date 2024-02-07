@@ -11,7 +11,7 @@ public class Calculator
         int num2;
         String operation;
      
-  
+                          
         Scanner input = new Scanner(System.in);
 
         System.out.println("please enter the first number");
