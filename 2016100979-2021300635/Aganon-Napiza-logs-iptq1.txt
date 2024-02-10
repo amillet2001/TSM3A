@@ -169,3 +169,20 @@ nothing to commit, working tree clean
 CCS-PC-05@CCS-PC-5 MINGW64 ~/Desktop/Aganon2017100979-Napiza2021300635/TSM3A/2016100979-2021300635 (Aganon-Napiza-iptq1)
 $ touch Aganon-Napiza-logs-iptq1.txt
 
+CCS-PC-05@CCS-PC-5 MINGW64 ~/Desktop/Aganon2017100979-Napiza2021300635/TSM3A/2016100979-2021300635 (Aganon-Napiza-iptq1)
+$ git add .
+
+CCS-PC-05@CCS-PC-5 MINGW64 ~/Desktop/Aganon2017100979-Napiza2021300635/TSM3A/2016100979-2021300635 (Aganon-Napiza-iptq1)
+$ git commit -m "code po namin sir"
+
+CCS-PC-05@CCS-PC-5 MINGW64 ~/Desktop/Aganon2017100979-Napiza2021300635/TSM3A/2016100979-2021300635 (Aganon-Napiza-iptq1)
+$ git push -u origin Aganon-Napiza-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.84 KiB | 1.84 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   f03f254..6045d85  Aganon-Napiza-iptq1 -> Aganon-Napiza-iptq1
+branch 'Aganon-Napiza-iptq1' set up to track 'origin/Aganon-Napiza-iptq1'.
