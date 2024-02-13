@@ -16,7 +16,7 @@
 2. open gitbash here
 3. git init
 4. create a new file "test.txt" add it and commit.
-4. reset the author (git commit --amend --reset-author "resetting author") 5 points
+4. reset the author (git commit --amend --reset-author -m "resetting author") 5 points
 5. modify the content of "test.txt" add it and commit.
 5. set new author username and email
 
