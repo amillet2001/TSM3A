@@ -1,0 +1,175 @@
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano
+$ git init
+Initialized empty Git repository in C:/Users/CCS-PC-14/Desktop/Feliciano/.git/
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ git config --global user.name "Joe Marie"
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ git config --global user.email "joemafeliciano@gmail.com"
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ touch test.txt
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ echo "hello" >test.txt
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ git commit -m "kayapa"
+[master (root-commit) a886ba9] kayapa
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ git show
+commit a886ba9ccb7e41abc42845f1d75939756e105512 (HEAD -> master)
+Author: Joe Marie <joemafeliciano@gmail.com>
+Date:   Wed Feb 14 07:57:47 2024 +0800
+
+    kayapa
+
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..ce01362
+--- /dev/null
++++ b/test.txt
+@@ -0,0 +1 @@
++hello
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 322, done.
+remote: Counting objects: 100% (95/95), done.
+remote: Compressing objects: 100% (81/81), done.
+remote: Total 322 (delta 17), reused 53 (delta 6), pack-reused 227
+Receiving objects: 100% (322/322), 131.16 KiB | 4.10 MiB/s, done.
+Resolving deltas: 100% (83/83), done.
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano (master)
+$ cd TSM3A
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A (main)
+$ git branch Feliciano-ipt1
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A (main)
+$ mkdir 2021300072
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A (main)
+$ cd 2021300072
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ touch okayy.txt
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git add .
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git commit -m "okera"
+[main 3ae1b6d] okera
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300072/okayy.txt
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git push -u origin Feliciano-ipt1
+remote: Permission to amillet2001/TSM3A.git denied to Amymodelo30.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git push -u origin Feliciano-ipt1
+remote: Permission to amillet2001/TSM3A.git denied to Amymodelo30.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git push
+remote: Permission to amillet2001/TSM3A.git denied to Amymodelo30.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git push -u Feliciano-ipt1
+fatal: 'Feliciano-ipt1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git push -u origin Feliciano-ipt1
+remote: Permission to amillet2001/TSM3A.git denied to Amymodelo30.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git push -u origin Feliciano-ipt1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Feliciano-ipt1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/Feliciano-ipt1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      Feliciano-ipt1 -> Feliciano-ipt1
+branch 'Feliciano-ipt1' set up to track 'origin/Feliciano-ipt1'.
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (main)
+$ git checkout Feliciano-ipt1
+Switched to branch 'Feliciano-ipt1'
+Your branch is up to date with 'origin/Feliciano-ipt1'.
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ git add .
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ git commit -m "portfolio"
+On branch Feliciano-ipt1
+Your branch is up to date with 'origin/Feliciano-ipt1'.
+
+nothing to commit, working tree clean
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ git add .
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ git commit -m "heto yung portfolio ko"
+On branch Feliciano-ipt1
+Your branch is up to date with 'origin/Feliciano-ipt1'.
+
+nothing to commit, working tree clean
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ git push -u origin Feliciano-iptq1
+error: src refspec Feliciano-iptq1 does not match any
+error: failed to push some refs to 'https://github.com/amillet2001/TSM3A'
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ git push -u origin Feliciano-ipt1
+Everything up-to-date
+branch 'Feliciano-ipt1' set up to track 'origin/Feliciano-ipt1'.
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ touch Feliciano-logs-iptq1.txt
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ 1)
+$ git push -u origin Feliciano-ipt1
+Everything up-to-date
+branch 'Feliciano-ipt1' set up to track 'origin/Feliciano-ipt1'.
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ touch Feliciano-logs-iptq1.txt
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+^C
+
+CCS-PC-14@DESKTOP-UTQS4D6 MINGW64 ~/Desktop/Feliciano/TSM3A/2021300072 (Feliciano-ipt1)
+$ a
