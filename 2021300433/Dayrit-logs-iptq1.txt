@@ -1,0 +1,74 @@
+
+  502  cd Desktop
+  503  ls
+  504  mkdir Dayrit
+  505  ls
+  506  cd Dayrit
+  507  git init
+  508  ls
+  509  git config list
+  510  touch test.txt
+  511  ls
+  512  git add.
+  513  git add .
+  514  git status
+  515  git commit -m "First commit"
+  516  git config?
+  517  git --help
+  518  git show
+  519  git commit --amend --reset-author -m "resetting author"
+  520  echo "This is second content" test.txt
+  521  git show
+  522  git commit --amend --reset-author -m "andreux-kurt"
+  523  git show
+  524  git config --list
+  525  echo "This is second content" test.txt
+  526  echo > "This is second content" test.txt
+  527  echo  "This is second content" > test.txt
+  528  git add .
+  529  git status
+  530  git commit -m "This is second commit" test.txt
+  531  git show
+  532  git config --global user.name"Lemuel"
+  533  git config --global user.email "dayritlopez@gmail.com"
+  534  git show
+  535  git commit --amend --reset-author -m "resetting author"
+  536  git show
+  537  git config --global user.name"Lemuel"
+  538  git commit --amend --reset-author -m "resetting author"
+  539  git show
+  540  git config --global user.name "Lemuel"
+  541  git show
+  542  git commit --amend --reset-author -m "resetting author"
+  543  git show
+  544  git clone https://github.com/amillet2001/TSM3A
+  545  ls
+  546  cd TSM3A
+  547  ls
+  548  cd ..
+  549  cd TSM3A
+  550  git checkout -b Dayrit-iptq1
+  551  mkdir 2021300433
+  552  ls
+  553  cd 2021300433
+  554  touch tsu.txt
+  555  ls
+  556  git add tsu.txt
+  557  git status
+  558  git commit -m "First commit in Dayrit branch" tsu.txt
+  559  git show
+  560  git push -u origin Dayrit-iptq1
+  561  ls
+  562  git add 2021300433-profile.html
+  563  git status
+  564  git commit -m "First commit website" 2021300433-profile.html 
+  565  git push -u origin Dayrit-iptq1
+  566  ls
+  567  git status
+  568  git add .
+  569  git status
+  570  git commit -m "This is second commit website with images"
+  571  git status
+  572  git push -u origin Dayrit-iptq1
+  573  ls
+  574  history > Dayrit-logs-iptq1.txt
