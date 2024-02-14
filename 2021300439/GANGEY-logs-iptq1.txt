@@ -338,4 +338,15 @@ warning: in the working copy of '2021300439/GANGEY-logs-iptq1.txt', LF will be r
 $ git commit -m "Basta modified na html yeaa" > 2021300439-profile.html
 
 322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add GANGEY-logs-iptq1
+fatal: pathspec 'GANGEY-logs-iptq1' did not match any files
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add GANGEY-logs-iptq1.txt
+warning: in the working copy of '2021300439/GANGEY-logs-iptq1.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Tapos na ata" > GANGEY-logs-iptq1.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
 $
