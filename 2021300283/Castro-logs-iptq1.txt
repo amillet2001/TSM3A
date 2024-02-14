@@ -1,0 +1,273 @@
+
+321-PC01@321-PC1 MINGW64 ~
+$ cd desktop
+
+321-PC01@321-PC1 MINGW64 ~/desktop (master)
+$ cd Castro
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC1/Desktop/Castro/.git/
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ touch test.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git add test.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git commit -m "My First Commit"
+[master (root-commit) 4a94139] My First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ echo "This is my Content" > test.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=TripleJent
+user.email=jericomaranga61@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git config --global user.name "Harvey"
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git config --global user.email h.castro00283@student.tsu.edu.ph
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git show
+commit 4a9413934cc7169b392b3cd16c57290d048faeec (HEAD -> master)
+Author: TripleJent <jericomaranga61@gmail.com>
+Date:   Wed Feb 14 07:42:11 2024 +0800
+
+    My First Commit
+
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..e69de29
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Harvey
+user.email=h.castro00283@student.tsu.edu.ph
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git log
+commit 4a9413934cc7169b392b3cd16c57290d048faeec (HEAD -> master)
+Author: TripleJent <jericomaranga61@gmail.com>
+Date:   Wed Feb 14 07:42:11 2024 +0800
+
+    My First Commit
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 3936388] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Harvey
+user.email=h.castro00283@student.tsu.edu.ph
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git show
+commit 393638874394e0cd81bd163af5851f793c2f090b (HEAD -> master)
+Author: Harvey <h.castro00283@student.tsu.edu.ph>
+Date:   Wed Feb 14 07:46:52 2024 +0800
+
+    resetting author
+
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..e69de29
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git log
+commit 393638874394e0cd81bd163af5851f793c2f090b (HEAD -> master)
+Author: Harvey <h.castro00283@student.tsu.edu.ph>
+Date:   Wed Feb 14 07:46:52 2024 +0800
+
+    resetting author
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 303, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 303 (delta 17), reused 34 (delta 6), pack-reused 227
+Receiving objects: 100% (303/303), 129.06 KiB | 38.00 KiB/s, done.
+Resolving deltas: 100% (83/83), done.
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro (master)
+$ cd TSM3A
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A (main)
+$ git branch
+* main
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A (main)
+$ git checkout -b "Castro-iptq1"
+Switched to a new branch 'Castro-iptq1'
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A (Castro-iptq1)
+$ mkdir 2021300283
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A (Castro-iptq1)
+$ cd 2021300283
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ touch Me_Papi.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git add Me_Papi
+fatal: pathspec 'Me_Papi' did not match any files
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git add Me_Papi.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git commit -m "My Commit in my Branch"
+[Castro-iptq1 807679f] My Commit in my Branch
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300283/Me_Papi.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git push -u origin Castro-iptq1
+remote: Permission to amillet2001/TSM3A.git denied to TripleJent.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git push -u origin Castro-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 350 bytes | 350.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Castro-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/Castro-iptq1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      Castro-iptq1 -> Castro-iptq1
+branch 'Castro-iptq1' set up to track 'origin/Castro-iptq1'.
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ ls
+Me_Papi.txt
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git add 2021300283-profile.html
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git commit -m "My Portfolio Commit"
+[Castro-iptq1 6427276] My Portfolio Commit
+ 1 file changed, 26 insertions(+)
+ create mode 100644 2021300283/2021300283-profile.html
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git push -u origin Castro-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 790 bytes | 790.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   807679f..6427276  Castro-iptq1 -> Castro-iptq1
+branch 'Castro-iptq1' set up to track 'origin/Castro-iptq1'.
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ ^C
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git add 2021300283-profile.html
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git commit -m "My Portfolio Commit 2"
+[Castro-iptq1 9170290] My Portfolio Commit 2
+ 1 file changed, 48 insertions(+), 13 deletions(-)
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$ git push -u origin Castro-iptq1
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1014 bytes | 1014.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   6427276..9170290  Castro-iptq1 -> Castro-iptq1
+branch 'Castro-iptq1' set up to track 'origin/Castro-iptq1'.
+
+321-PC01@321-PC1 MINGW64 ~/desktop/Castro/TSM3A/2021300283 (Castro-iptq1)
+$
