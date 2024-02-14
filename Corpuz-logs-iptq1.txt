@@ -1,0 +1,288 @@
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC21/Desktop/CORPUZ/.git/
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ touch test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git add .
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git commit -m "this is commit 1"
+[master (root-commit) 14b8e2e] this is commit 1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 9ecfd96] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ echo "hapi balentayms awts" > test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git commit -m "this is commit 2"
+[master 8ae3b71] this is commit 2
+ 1 file changed, 1 insertion(+)
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git config user.name "Angge"
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git config user.email "an.corpuz00402@student.tsu.edu.ph"
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 303, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 303 (delta 17), reused 34 (delta 6), pack-reused 227
+Receiving objects: 100% (303/303), 129.06 KiB | 1.74 MiB/s, done.
+Resolving deltas: 100% (83/83), done.
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ cd TSM3A
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A (main)
+$ mkdir ABCorpuz
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A (main)
+$ cd ABCorpuz
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ cd mkdir
+bash: cd: mkdir: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ cd TSM3A
+bash: cd: TSM3A: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ git checkout -b branch-ni-angge
+Switched to a new branch 'branch-ni-angge'
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (branch-ni-angge)
+$ mkdir 2021300402
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (branch-ni-angge)
+$ cd 2021300402
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ touch Angge.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git add .
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git commit -m "this is commit 3"
+[branch-ni-angge f603b65] this is commit 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ABCorpuz/2021300402/Angge.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git push -u origin corpuz-iptq1
+error: src refspec corpuz-iptq1 does not match any
+error: failed to push some refs to 'https://github.com/amillet2001/TSM3A'
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git branch - branch-ni-angge
+fatal: '-' is not a valid branch name
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git branch -d branch-ni-angge
+error: cannot delete branch 'branch-ni-angge' used by worktree at 'C:/Users/STUDENT-PC21/Desktop/CORPUZ/TSM3A'
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git checkout
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git checkout -b Corpuz-iptq1
+Switched to a new branch 'Corpuz-iptq1'
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ cd Corpuz-iptq1
+bash: cd: Corpuz-iptq1: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ cd TSM3A
+bash: cd: TSM3A: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ mkdir 2021300402
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ cd 2021300402
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402/2021300402 (Corpuz-iptq1)
+$ cd ..
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ touch angge.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ git add .
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ git commit -m "auq n pla"
+On branch Corpuz-iptq1
+nothing to commit, working tree clean
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ git status
+On branch Corpuz-iptq1
+nothing to commit, working tree clean
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ git add .
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$ git push -u origin Corpuz-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 384 bytes | 384.00 KiB/s, done.
+Total 5 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Corpuz-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/Corpuz-iptq1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      Corpuz-iptq1 -> Corpuz-iptq1
+branch 'Corpuz-iptq1' set up to track 'origin/Corpuz-iptq1'.
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (Corpuz-iptq1)
+$  1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ echo "hapi balentayms awts" > test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git commit -m "this is commit 2"
+[master 8ae3b71] this is commit 2
+ 1 file changed, 1 insertion(+)
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git config user.name "Angge"
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git config user.email "an.corpuz00402@student.tsu.edu.ph"
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 303, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 303 (delta 17), reused 34 (delta 6), pack-reused 227
+Receiving objects: 100% (303/303), 129.06 KiB | 1.74 MiB/s, done.
+Resolving deltas: 100% (83/83), done.
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ cd TSM3A
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A (main)
+$ mkdir ABCorpuz
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A (main)
+$ cd ABCorpuz
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ cd mkdir
+bash: cd: mkdir: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ cd TSM3A
+bash: cd: TSM3A: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$  1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ echo "hapi balentayms awts" > test.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git commit -m "this is commit 2"
+[master 8ae3b71] this is commit 2
+ 1 file changed, 1 insertion(+)
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git config user.name "Angge"
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git config user.email "an.corpuz00402@student.tsu.edu.ph"
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 303, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 303 (delta 17), reused 34 (delta 6), pack-reused 227
+Receiving objects: 100% (303/303), 129.06 KiB | 1.74 MiB/s, done.
+Resolving deltas: 100% (83/83), done.
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ (master)
+$ cd TSM3A
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A (main)
+$ mkdir ABCorpuz
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A (main)
+$ cd ABCorpuz
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ cd mkdir
+bash: cd: mkdir: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ cd TSM3A
+bash: cd: TSM3A: No such file or directory
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (main)
+$ git checkout -b branch-ni-angge
+Switched to a new branch 'branch-ni-angge'
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (branch-ni-angge)
+$ mkdir 2021300402
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz (branch-ni-angge)
+$ cd 2021300402
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ touch Angge.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git add .
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git commit -m "this is commit 3"
+[branch-ni-angge f603b65] this is commit 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ABCorpuz/2021300402/Angge.txt
+
+322-PC9@322-PC9 MINGW64 ~/Desktop/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)
+$ git push -u origin corpuz-iptq1
+$ git push -u origin corpuz-iptq1/CORPUZ/TSM3A/ABCorpuz/2021300402 (branch-ni-angge)e Git touches itPUZ/TSM3A'
