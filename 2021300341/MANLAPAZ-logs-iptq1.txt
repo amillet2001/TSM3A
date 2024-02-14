@@ -1,0 +1,89 @@
+$ echo "^[[200~rm: cannot remove '/etc/post-install/01-devices.post': Permission denied
+> rm: cannot remove '/etc/post-install/03-mtab.post': Permission denied
+> rm: cannot remove '/etc/post-install/06-windows-files.post': Permission denied
+> rm: cannot remove '/etc/post-install/99-post-install-cleanup.post': Permission denied
+>
+> 322-PC8@322-PC8 MINGW64 ~
+> $ cd desktop
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop
+> $ cd Manlapaz
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz (master)
+> $ git config --global user.email "amanlapaz@gmail.com"
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz (master)
+> $ git clone https://github.com/amillet2001/TSM3A
+> Cloning into 'TSM3A'...
+> remote: Enumerating objects: 303, done.
+> remote: Counting objects: 100% (76/76), done.
+> /83remote: Compressing objects: 100% (66/66), done.
+> remote: Total 303 (delta 17), reused 34 (delta 6), pack-reused 227
+> Receiving objects: 100% (303/303), 129.06 KiB | 1.99 MiB/s, done.
+> Resolving deltas: 100% (83/83), done.
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz (master)
+> $ git checkout MANLAPAZ-iptq1
+> error: pathspec 'MANLAPAZ-iptq1' did not match any file(s) known to git
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz (master)
+> $ cd TSM3A
+>
+> d no322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A (main)
+> $ git checkout MANLAPAZ-iptq1
+> error: pathspec 'MANLAPAZ-iptq1' did not match any file(s) known to git
+>
+> GW6nla322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A (main)
+> $ git checkout -b MANLAPAZ-iptq1
+> Switched to a new branch 'MANLAPAZ-iptq1'
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A (MANLAPAZ-iptq1)
+> $ mkdir 2021300341
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A (MANLAPAZ-iptq1)
+> $ cd 2021300341
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> $ touch althea.txt
+>
+> p/Ma322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> $ git add althea.txt
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> $ git commit -m "this is my second commit"
+> [MANLAPAZ-iptq1 7f4ccf1] this is my second commit
+>  1 file changed, 0 insertions(+), 0 deletions(-)
+>  create mode 100644 2021300341/althea.txt
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> $ git push -u origin MANLAPAZ-iptq1
+> Enumerating objects: 5, done.
+> Counting objects: 100% (5/5), done.
+> Delta compression using up to 6 threads
+> Compressing objects: 100% (2/2), done.
+> Writing objects: 100% (4/4), 347 bytes | 347.00 KiB/s, done.
+> Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+> remote:
+> remote: Create a pull request for 'MANLAPAZ-iptq1' on GitHub by visiting:
+> remote:      https://github.com/amillet2001/TSM3A/pull/new/MANLAPAZ-iptq1
+> remote:
+> To https://github.com/amillet2001/TSM3A
+>  * [new branch]      MANLAPAZ-iptq1 -> MANLAPAZ-iptq1
+> branch 'MANLAPAZ-iptq1' set up to track 'origin/MANLAPAZ-iptq1'.
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> @32$ git push -u origin MANLAPAZ-iptq1
+> Everything up-to-date
+> branch 'MANLAPAZ-iptq1' set up to track 'origin/MANLAPAZ-iptq1'.
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> $ ls
+> 2021300341-profile.html  althea.txt  tey.jfif
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> $ git push -u origin MANLAPAZ-iptq1
+> Everything up-to-date
+> branch 'MANLAPAZ-iptq1' set up to track 'origin/MANLAPAZ-iptq1'.
+>
+> 322-PC8@322-PC8 MINGW64 ~/desktop/Manlapaz/TSM3A/2021300341 (MANLAPAZ-iptq1)
+> $
