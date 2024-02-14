@@ -1,0 +1,304 @@
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ touch test.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git add .
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git commit -m "This is my first Commit"
+[master (root-commit) 5ce2b43] This is my first Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Desktop/GaleonJr/test.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git commit --amend --reset-author -m "resetting author"
+[master 37ee80d] resetting author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Desktop/GaleonJr/test.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ echo "Why are you" > test.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.VirtualBox/
+        ../../.bash_history
+        ../../.eclipse/
+        ../../.gitconfig
+        ../../.gitignore
+        ../../.idlerc/
+        ../../.ipynb_checkpoints/
+        ../../.ipython/
+        ../../.jupyter/
+        ../../.lesshst
+        ../../.matplotlib/
+        ../../.openjfx/
+        ../../.p2/
+        ../../.packettracer
+        ../../.soapuios/
+        ../../.viminfo
+        ../../.vscode/
+        ../../3D Objects/
+        ../../AppData/
+        ../../BasilioRandall.ipynb
+        ../../Cisco Packet Tracer 8.2.0/
+        ../../Cisco Packet Tracer 8.2.1/
+        ../../Contacts/
+        ../../DeVegaJohnPaul.ipynb
+        ../../DeVegaJohnPaulDocumentation.ipynb
+        ../AgnesFile/
+        ../Alborote/
+        ../Cisco Packet Tracer.lnk
+        ../Contin.txt
+        ../DeGuzman/
+        ../Fritzing.lnk
+        ../GALEON/
+        ../LastVerse.txt - Shortcut.lnk
+        ../New Text Document.txt
+        ../Postman.lnk
+        ../SOMERA/
+        ../Subnetting Exercise.pka
+        ../VSCode-win32-x64-1.73.0 - Shortcut.lnk
+        ../You Belong With Me.txt
+        ../all the other stuff last sem/
+        ../desktop.ini
+        ../logisim-win-2.7.1.exe
+        ../../Documents/
+        ../../Downloads/
+        ../../Ejhay
+        ../../Favorites/
+        ../../IPt2-Lab-acitivity/
+        ../../IntelGraphicsProfiles/
+        ../../Links/
+        ../../LiwanagGroup/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{c45edf93-0686-11ee-b58c-e8d8d1bca878}.TM.blf
+        ../../NTUSER.DAT{c45edf93-0686-11ee-b58c-e8d8d1bca878}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{c45edf93-0686-11ee-b58c-e8d8d1bca878}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../PycharmProjects/
+        ../../Saved Games/
+        ../../Searches/
+        ../../SoapUI-Tutorials/
+        ../../Untitled.ipynb
+        ../../Untitled1.ipynb
+        ../../Untitled2.ipynb
+        ../../Untitled3.ipynb
+        ../../Untitled4.ipynb
+        ../../Untitled5.ipynb
+        ../../Videos/
+        ../../VirtualBox VMs/
+        ../../default-soapui-workspace.xml
+        ../../dev.html
+        ../../index.html
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+        ../../onepiece.csv
+        ../../onepiece.xlsx
+        ../../soapui-settings.xml
+        ../../style.css
+        ../../task 1.html
+        ../../task2.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git add .
+warning: in the working copy of 'Desktop/GaleonJr/test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git config --global user.name "Jeffrey"
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git config --global user.email chingchongyigger@gmail.com
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git show
+commit 37ee80d05f63dd484af68fbdbab3cbbeeb7cd40a (HEAD -> master)
+Author: Kyle <kdendu111@gmail.com>
+Date:   Wed Feb 14 07:43:09 2024 +0800
+
+    resetting author
+
+diff --git a/Desktop/GaleonJr/test.txt b/Desktop/GaleonJr/test.txt
+new file mode 100644
+index 0000000..e69de29
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ ls
+test.txt
+l
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ echo "bulok pc ko " > test.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git add .
+warning: in the working copy of 'Desktop/GaleonJr/test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git commit -m "bulok pc ko"
+[master d717eec] bulok pc ko
+ 1 file changed, 1 insertion(+)
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git sohw
+gitgit: 'sohw' is not a git command. See 'git --help'.
+
+The most similar command is
+        show
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git show
+commit d717eec0de75168c32904cc12c675a63e6cab9ab (HEAD -> master)
+Author: Jeffrey <chingchongyigger@gmail.com>
+Date:   Wed Feb 14 07:59:51 2024 +0800
+
+    bulok pc ko
+
+diff --git a/Desktop/GaleonJr/test.txt b/Desktop/GaleonJr/test.txt
+index e69de29..a340ec4 100644
+--- a/Desktop/GaleonJr/test.txt
++++ b/Desktop/GaleonJr/test.txt
+@@ -0,0 +1 @@
++bulok pc ko
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 303, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 303 (delta 17), reused 34 (delta 6), pack-reused 227
+Receiving objects: 100% (303/303), 129.06 KiB | 1.74 MiB/s, done.
+Resolving deltas: 100% (83/83), done.
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr (master)
+$ cd  TSM3A
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (main)
+$ git checkout -b Galeon-branch
+Switched to a new branch 'Galeon-branch'
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (Galeon-branch)
+$ git branch
+* Galeon-branch
+  main
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (Galeon-branch)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (main)
+$ git branch -d Galeon-branch
+Deleted branch Galeon-branch (was 60536c3).
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (main)
+$ git checkout -b Galeon-iptq1
+Switched to a new branch 'Galeon-iptq1'
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (Galeon-iptq1)
+$ mkdir 2021300555
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (Galeon-iptq1)
+$ touch yigger.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (Galeon-iptq1)
+$ ls
+2021300555/  instructions.txt  yigger.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A (Galeon-iptq1)
+$ cd 2021300555
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ touch yigger2.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ git push -u origin Galeon-iptq1
+remote: Permission to amillet2001/TSM3A.git denied to pogikami.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ ls
+yigger2.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ git commit -m "yigger2"
+On branch Galeon-iptq1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+        ../yigger.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ git add .
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ git commit -m "yigger2"
+[Galeon-iptq1 9fd3983] yigger2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300555/yigger2.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ git push -u origin Galeon-iptq1
+remote: Permission to amillet2001/TSM3A.git denied to pogikami.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ ls
+yigger2.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+remote: Permission to amillet2001/TSM3A.git denied to pogikami.
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': The requested URL returned error: 403
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ git push -u origin Galeon-iptq1
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 334 bytes | 334.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Galeon-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/Galeon-iptq1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      Galeon-iptq1 -> Galeon-iptq1
+branch 'Galeon-iptq1' set up to track 'origin/Galeon-iptq1'.
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ ls
+yigger2.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$ ls
+2021300555-profile.html  2021300555.profile  yigger2.txt
+
+322-PC2@322-PC2 MINGW64 ~/Desktop/GaleonJr/TSM3A/2021300555 (Galeon-iptq1)
+$
