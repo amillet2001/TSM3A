@@ -1,0 +1,171 @@
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano
+$ git init
+Initialized empty Git repository in C:/Users/Ken/Desktop/Arellano/.git/
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ touch test.txt
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git add .
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git commit -m "hi!"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Ken@DESKTOP-IT0LRU1.(none)')
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git config --global user.name "Your Name"
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git config --global user.name "GhryzA08"
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git config --global user.email "mariayzabellaghryza@gmail.com"
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git clone https://github.com/amillet2001/TSM3A/tree/main
+Cloning into 'main'...
+fatal: repository 'https://github.com/amillet2001/TSM3A/tree/main/' not found
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ cd TSM3A
+bash: cd: TSM3A: No such file or directory
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 693, done.
+remote: Counting objects: 100% (301/301), done.
+remote: Compressing objects: 100% (227/227), done.
+remote: Total 693 (delta 70), reused 277 (delta 67), pack-reused 392
+Receiving objects: 100% (693/693), 3.57 MiB | 101.00 KiB/s, done.
+Resolving deltas: 100% (114/114), done.
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano (master)
+$ cd TSM3A
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A (main)
+$ git branch Arellano-iptq1
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A (main)
+$ git checkout Arellano-iptq1
+Switched to branch 'Arellano-iptq1'
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A (Arellano-iptq1)
+$ mkdir 2021300548
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A (Arellano-iptq1)
+$ cd 2021300548
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ touch test.txt
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git add .
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git commit -m "hello"
+[Arellano-iptq1 1967ef9] hello
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300548/test.txt
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git push -u origin Arellano-iptq1
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': Could not resolve host: github.com
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git checkout
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git checkout -b main
+fatal: a branch named 'main' already exists
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git checkout -b
+error: switch `b' requires a value
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git checkout -b TSM3A
+Switched to a new branch 'TSM3A'
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (TSM3A)
+$ git push -u origin Arellano-iptq1
+fatal: unable to access 'https://github.com/amillet2001/TSM3A/': Could not resolve host: github.com
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (TSM3A)
+$ git checkout Arellano-iptq1
+Switched to branch 'Arellano-iptq1'
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git add .
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git commit -m "Hello!"
+[Arellano-iptq1 3703646] Hello!
+ 1 file changed, 19 insertions(+)
+ create mode 100644 2021300548/2021300548-Profile.html
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git push -u origin Arellano-iptq1
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 943 bytes | 471.00 KiB/s, done.
+Total 8 (delta 2), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Arellano-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/Arellano-iptq1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      Arellano-iptq1 -> Arellano-iptq1
+branch 'Arellano-iptq1' set up to track 'origin/Arellano-iptq1'.
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git add .
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git commit -m "Hi Sir!"
+On branch Arellano-iptq1
+Your branch is up to date with 'origin/Arellano-iptq1'.
+
+nothing to commit, working tree clean
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git add .
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git commit -m "Hi Sir!"
+On branch Arellano-iptq1
+Your branch is up to date with 'origin/Arellano-iptq1'.
+
+nothing to commit, working tree clean
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$ git push -u origin Arellano-iptq1
+Everything up-to-date
+branch 'Arellano-iptq1' set up to track 'origin/Arellano-iptq1'.
+
+Ken@DESKTOP-IT0LRU1 MINGW64 ~/Desktop/Arellano/TSM3A/2021300548 (Arellano-iptq1)
+$
+s
