@@ -1,0 +1,352 @@
+
+322-PC3@322-PC3 MINGW64 ~
+$ git --amend --reset-author
+unknown option: --amend
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+322-PC3@322-PC3 MINGW64 ~
+$ cd desktop
+
+322-PC3@322-PC3 MINGW64 ~/desktop
+$ mkdir GANGEY
+
+322-PC3@322-PC3 MINGW64 ~/desktop
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC23/Desktop/.git/
+
+322-PC3@322-PC3 MINGW64 ~/desktop (master)
+$ cd GANGEY
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY (master)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC23/Desktop/GANGEY/.git/
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY (master)
+unknown option: --amenduthor
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY (master)
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY (master)
+$ mkdir GANGEY
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY (master)
+$ cd GANGEY
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git init
+Initialized empty Git repository in C:/Users/STUDENT-PC23/Desktop/GANGEY/GANGEY/.git/
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ touch test.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git commit -m "first version my nigga" > test.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git --amend --reset-author
+unknown option: --amend
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ touch test.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ echo "Pogi si sir Axel"
+Pogi si sir Axel
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git add .
+warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git commit -m "second version my nigga" > test.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git config user.name "GANGEY, JAYZELLE"
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git config user.email "asusnamba1717@gmail.com"
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ git clone https://github.com/amillet2001/TSM3A
+Cloning into 'TSM3A'...
+remote: Enumerating objects: 297, done.
+remote: Counting objects: 100% (70/70), done.
+remote: Compressing objects: 100% (62/62), done.
+remote: Total 297 (delta 16), reused 29 (delta 6), pack-reused 227
+Receiving objects: 100% (297/297), 127.88 KiB | 1.66 MiB/s, done.
+Resolving deltas: 100% (82/82), done.
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY (master)
+$ cd TSM3A
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A (main)
+$ git checkout -b GANGEY-iptq1
+Switched to a new branch 'GANGEY-iptq1'
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A (GANGEY-iptq1)
+$ mkdir 2021300439
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A (GANGEY-iptq1)
+$ cd 2021300439
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch GANGEY.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ echo "Pogi si Jayzelle"
+Pogi si Jayzelle
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "First sa may TSM3A" > GANGEY.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$Enumerating objects: 300, done.1
+Counting objects: 100% (300/300), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (208/208), done.
+Writing objects: 100% (300/300), 128.14 KiB | 64.07 MiB/s, done.
+Total 300 (delta 82), reused 297 (delta 82), pack-reused 0
+remote: Resolving deltas: 100% (82/82), done.
+remote:
+remote: Create a pull request for 'GANGEY-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/GANGEY-iptq1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      GANGEY-iptq1 -> GANGEY-iptq1
+branch 'GANGEY-iptq1' set up to track 'origin/GANGEY-iptq1'.
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git branch
+* GANGEY-iptq1
+  main
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git push -u origin GANGEY-iptq1
+Everything up-to-date
+branch 'GANGEY-iptq1' set up to track 'origin/GANGEY-iptq1'.
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ ls
+2021300439-profile.html  GANGEY.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git status
+On branch GANGEY-iptq1
+Your branch is up to date with 'origin/GANGEY-iptq1'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   GANGEY.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2021300439-profile.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+warning: in the working copy of '2021300439/GANGEY.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Una gar" > 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git push -u origin GANGEY-iptq1
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 722 bytes | 722.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   cd417b7..1416fff  GANGEY-iptq1 -> GANGEY-iptq1
+branch 'GANGEY-iptq1' set up to track 'origin/GANGEY-iptq1'.
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git status
+On branch GANGEY-iptq1
+Your branch is up to date with 'origin/GANGEY-iptq1'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2021300439-profile.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Una gar" > 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+warning: in the working copy of '2021300439/2021300439-profile.html', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Una gar" > 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git push -u origin GANGEY-iptq1
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 593 bytes | 593.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   1416fff..690d2d2  GANGEY-iptq1 -> GANGEY-iptq1
+branch 'GANGEY-iptq1' set up to track 'origin/GANGEY-iptq1'.
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+warning: in the working copy of '2021300439/2021300439-profile.html', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Una gar" > 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+warning: in the working copy of '2021300439/2021300439-profile.html', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Una gar" > 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git status
+On branch GANGEY-iptq1
+Your branch is ahead of 'origin/GANGEY-iptq1' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   2021300439-profile.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        body{.scss
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Basta modified na html" > 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch body{.scss
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+warning: in the working copy of '2021300439/2021300439-profile.html', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Center design shit css" > body{.scss
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git push -u origin GANGEY-iptq1
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 24.86 KiB | 8.29 MiB/s, done.
+Total 18 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/amillet2001/TSM3A
+   690d2d2..2b73943  GANGEY-iptq1 -> GANGEY-iptq1
+branch 'GANGEY-iptq1' set up to track 'origin/GANGEY-iptq1'.
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ ^C
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch GANGEY-logs-iptq1.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch GANGEY-logs-iptq1.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+warning: in the working copy of '2021300439/body{.scss', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Tapos na, quiz sana sir huhu" > GANGEY-logs-iptq1.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ touch 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add .
+warning: in the working copy of '2021300439/2021300439-profile.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '2021300439/GANGEY-logs-iptq1.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Basta modified na html yeaa" > 2021300439-profile.html
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add GANGEY-logs-iptq1
+fatal: pathspec 'GANGEY-logs-iptq1' did not match any files
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git add GANGEY-logs-iptq1.txt
+warning: in the working copy of '2021300439/GANGEY-logs-iptq1.txt', LF will be replaced by CRLF the next time Git touches it
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$ git commit -m "Tapos na ata" > GANGEY-logs-iptq1.txt
+
+322-PC3@322-PC3 MINGW64 ~/desktop/GANGEY/GANGEY/TSM3A/2021300439 (GANGEY-iptq1)
+$
