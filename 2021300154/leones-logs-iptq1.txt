@@ -1,0 +1,95 @@
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES (master)
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES (master)
+$ git clone https://github.com/amillet2001/TSM3A
+fatal: destination path 'TSM3A' already exists and is not an empty directory.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES (master)
+$ cd TSM3A
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A (leones-iptq1)
+$ git push -u origin lastname-iptq1
+error: src refspec lastname-iptq1 does not match any
+error: failed to push some refs to 'https://github.com/amillet2001/TSM3A'
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A (leones-iptq1)
+$ git checkout -b leones-iptq1
+fatal: a branch named 'leones-iptq1' already exists
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A (leones-iptq1)
+$ mkdir 2021300154
+mkdir: cannot create directory ‘2021300154’: File exists
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A (leones-iptq1)
+$ cd 2021300154
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ touch ako.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git add ako.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git commit -m "Happy Valentines"
+On branch leones-iptq1
+nothing to commit, working tree clean
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ touch ako1.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git add ako1.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git commit -m "HI HI"
+[leones-iptq1 087a299] HI HI
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2021300154/ako1.txt
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git push -u origin leones-iptq1
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 646 bytes | 646.00 KiB/s, done.
+Total 7 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'leones-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/leones-iptq1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      leones-iptq1 -> leones-iptq1
+branch 'leones-iptq1' set up to track 'origin/leones-iptq1'.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git add 2021300154-profile.html
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git commit -m "My profile"
+[leones-iptq1 8fe6231] My profile
+ 1 file changed, 21 insertions(+)
+ create mode 100644 2021300154/2021300154-profile.html
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git push -u origin leones-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 674 bytes | 674.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   087a299..8fe6231  leones-iptq1 -> leones-iptq1
+branch 'leones-iptq1' set up to track 'origin/leones-iptq1'.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$ git push -u origin leones-iptq1
+Everything up-to-date
+branch 'leones-iptq1' set up to track 'origin/leones-iptq1'.
+
+322-PC12@322-PC12 MINGW64 ~/Desktop/LEONES/TSM3A/2021300154 (leones-iptq1)
+$
