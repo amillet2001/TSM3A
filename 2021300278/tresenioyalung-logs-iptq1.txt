@@ -1,0 +1,182 @@
+    1  ls
+    2  git help
+    3  cd /
+    4  ls
+    5  clear
+    6  ls
+    7  ls
+    8  cd desktop
+    9  cls
+   10  ls
+   11  cd desktop
+   12  ls
+   13  cd desktop
+   14  mkdir Pineda
+   15  cd Pineda
+   16  git init
+   17  git config --global user.name "Harold Miranda Pineda"
+   18  git config --global user.email haroldpineda@gmail.com
+   19  touch IPT2ACT1.txt
+   20  echo "This Is My 1st Version"
+   21  ls
+   22  cd desktop
+   23  mkdir Pineda
+   24  cd Pineda
+   25  git init
+   26  git config --global "Harold Miranda Pineda"
+   27  git config --global user.name "Harold Miranda Pineda"
+   28  git config --global user.email hm.pineda00542@student.tsu.edu.ph
+   29  touch IPT2Act1.txt
+   30  echo "This Is My 1st Version"
+   31  git status
+   32  git add .
+   33  git status
+   34  git commit -m "This is my 1st LAB Activity in IPT2"
+   35  git status
+   36  echo "This Is My 2nd Version"
+   37  echo "This Is My 2nd Version" >IPT2Act1.txt
+   38  git status
+   39  ls
+   40  cd desktop
+   41  mkdir Pineda
+   42  cd Pineda
+   43  git init
+   44  git config --global user.name "Harold Pineda"
+   45  git config --global user.email hmpineda00542@student.tsu.edu.ph
+   46  touch IPT2ACT1.txt
+   47  echo "this is my first version"
+   48  git status
+   49  git add .
+   50  git status
+   51  git commit -m "This is my 1st Lab Acvitity"
+   52  git status
+   53  git commit -m "This is my 1st Lab Acvitity" >IPT2ACT1
+   54  ls
+   55  cd desktop
+   56  mkdir Pineda
+   57  cd Pineda
+   58  git init
+   59  git config --global user.name "Harold Pineda"
+   60  git config --global user.email hm.pineda00542@student.tsu.edu.ph
+   61  touch IPT2ACT1.txt
+   62  echo "this is my first version"
+   63  git status
+   64  git add .
+   65  git status
+   66  git commit -m "my first commit"
+   67  git status
+   68  git commit -m "my first commit" >IPT2ACT1
+   69  ls\
+   70  ls
+   71  cd desktop
+   72  mkdir Pineda
+   73  cd Pineda
+   74  git init
+   75  git config --global user.name "Harold Pineda"
+   76  git config --global user.email hm.pineda00542@student.tsu.edu.ph
+   77  touch IPT2ACT1.txt
+   78  echo "This is my first version"
+   79  git status
+   80  git add .
+   81  git status
+   82  git commit -m "my first commit"
+   83  git status
+   84  touch harold.txt
+   85  touch miranda.txt
+   86  touch pineda.txt
+   87  git status
+   88  git add .
+   89  git status
+   90  echo "this is my second commit" > IPT2ACT1.txt
+   91  git status
+   92  git add .
+   93  git commit -m "this is my second commit"
+   94  echo "this is my third text" > IPT2ACT1.txt
+   95  git status
+   96  git add .
+   97  git status
+   98  git commit -m "this is my third commit"
+   99  git log
+  100  git reset --hard  5b2a19187c2f6d89d06eb6af79b8dddea2b699df
+  101  git log
+  102  ls
+  103  mkdir YALUNG
+  104  git clone https://github.com/amillet2001/TSM3A
+  105  ls
+  106  cd TSM3A
+  107  git checkout -b YALUNG-BRANCH
+  108  mkdir YALUNG
+  109  git add .
+  110  git commit -m "okay po"
+  111  touch me.txt 
+  112  git add .
+  113  git commit -m "commit 1"
+  114  git branch
+  115  git checkout main
+  116  git push origin -u YALUNG-BRANCH 
+  117  git push origin -u YALUNG-BRANCH 
+  118  git push origin -u YALUNG-BRANCH 
+  119  git push origin -u YALUNG-BRANCH 
+  120  git push origin -u YALUNG-BRANCH 
+  121  git push origin -u YALUNG-BRANCH 
+  122  git checkout YALUNG-BRANCH
+  123  git clone https://github.com/amillet2001/NA3B
+  124  cd NA3B
+  125  git checkout -b nicdao-local
+  126  touch 2021300454.txt
+  127  echo "Kim I love you" > 2021300454.txt
+  128  git commit -m "This is my first commit"
+  129  git push -u origin nicdao-local
+  130  git push -u origin nicdao-local
+  131  git add .
+  132  git commit -m "This my first commit"
+  133  git push -u origin nicdao-local
+  134  git init
+  135  touch "test.txt"
+  136  git add.
+  137  git add .
+  138  git commit -m "Commit"
+  139  git commit --amend --reset-author "resetting author"
+  140  git commit --amend --reset-author
+  141  git init
+  142  git commit --amend --reset-author -m "resetting author"
+  143  git show
+  144  echo "wassup"
+  145  git show
+  146  echo "wassup" > test.txt
+  147  git show
+  148  git status
+  149  git add .
+  150  git commit test.txt -m "commit 2"
+  151  git show
+  152  git config --global user.name "Tresenio, Yalung"
+  153  git config --global email.name "r.tresenio00278@student.tsu.edu.ph"
+  154  git show
+  155  git config --list
+  156  git show
+  157  git config --global user.email r.tresenio00278@student.tsu.edu.ph
+  158  git show
+  159  ls
+  160  echo "commit 3" > test.txt
+  161  git add .
+  162  git commit -m "commit 3"
+  163  git show
+  164  git clone https://github.com/amillet2001/TSM3A
+  165  cd TSM3A
+  166  git checkout -b tresenioyalung-iptq1 
+  167  mkdir 2021300278
+  168  cd 2021300278
+  169  touch new.txt
+  170  echo "hello" > new.txt
+  171  git add .
+  172  git add new.txt
+  173  git commit -m "nice"
+  174  git push -u origin tresenioyalung-iptq1
+  175  git push -u origin tresenioyalung-iptq1
+  176  git push -u origin tresenioyalung-iptq1
+  177  git add 2021300278-profile.html
+  178  git commit -m "HTML site - Student Info"
+  179  git push -u origin tresenioyalung-iptq1
+  180  touch tresenioyalung-logs-iptq1
+  181  touch tresenioyalung-logs-iptq1.txt
+  182  history > tresenioyalung-logs-iptq1.txt
