@@ -1,0 +1,109 @@
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A (Fernandez-iptq1)
+$ ls
+2021300270/  instructions.txt
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A (Fernandez-iptq1)
+$ git show
+commit 05e92f55be11b92c45354361d8ff5a6da85fbf34 (HEAD -> Fernandez-iptq1)
+Author: Cyrus <Cyrusfernandez60@gmail.com>
+Date:   Tue Feb 13 07:58:37 2024 -0800
+
+    commit on Fernandez-iptq1
+
+diff --git a/2021300270/Me_Cy.txt b/2021300270/Me_Cy.txt
+new file mode 100644
+index 0000000..e69de29
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A (Fernandez-iptq1)
+$ git push -u origin lastname-iptq1
+error: src refspec lastname-iptq1 does not match any
+error: failed to push some refs to 'https://github.com/amillet2001/TSM3A'
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A (Fernandez-iptq1)
+$ git push -u origin Fernandez-iptq1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 340 bytes | 340.00 KiB/s, done.
+Total 4 (delta 0), reused 1 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Fernandez-iptq1' on GitHub by visiting:
+remote:      https://github.com/amillet2001/TSM3A/pull/new/Fernandez-iptq1
+remote:
+To https://github.com/amillet2001/TSM3A
+ * [new branch]      Fernandez-iptq1 -> Fernandez-iptq1
+branch 'Fernandez-iptq1' set up to track 'origin/Fernandez-iptq1'.
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A (Fernandez-iptq1)
+$ ls
+2021300270/  instructions.txt
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A (Fernandez-iptq1)
+$ cd 2021300270
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ la
+bash: la: command not found
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ ls
+Me_Cy.txt
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ ls
+2021300270-profile.html  Me_Cy.txt
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ add .
+bash: add: command not found
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ git add .
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ git commit -m "Commit With Html basic back bone"
+[Fernandez-iptq1 e8261de] Commit With Html basic back bone
+ 1 file changed, 27 insertions(+)
+ create mode 100644 2021300270/2021300270-profile.html
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ git push -u origin Fernandez-iptq1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 797 bytes | 797.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   05e92f5..e8261de  Fernandez-iptq1 -> Fernandez-iptq1
+branch 'Fernandez-iptq1' set up to track 'origin/Fernandez-iptq1'.
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ git add .
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ git commit -m "HTML with Design"
+[Fernandez-iptq1 9ee6210] HTML with Design
+ 2 files changed, 45 insertions(+), 3 deletions(-)
+ create mode 100644 2021300270/image.jpg
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ push -u origin Fernandez-iptq1
+bash: push: command not found
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$ git push -u origin Fernandez-iptq1
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 278.46 KiB | 27.85 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amillet2001/TSM3A
+   e8261de..9ee6210  Fernandez-iptq1 -> Fernandez-iptq1
+branch 'Fernandez-iptq1' set up to track 'origin/Fernandez-iptq1'.
+
+STUDENT@DESKTOP-M3U5V9S MINGW64 ~/Desktop/Fernandez/TSM3A/2021300270 (Fernandez-iptq1)
+$
