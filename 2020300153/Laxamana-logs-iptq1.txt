@@ -1,0 +1,27 @@
+
+RYAN@RYAN MINGW64 ~/Desktop/laxamana/TSM3A/2020300153 (Laxamana-iptq1)
+$ echo "
+RYAN@RYAN MINGW64 ~/Desktop/laxamana
+$ git init
+Initialized empty Git repository in C:/Users/RYAN/Desktop/laxamana/.git/
+
+RYAN@RYAN MINGW64 ~/Desktop/laxamana (master)
+$ touch test.txt
+
+RYAN@RYAN MINGW64 ~/Desktop/laxamana (master)
+$ git add test.txt
+
+RYAN@RYAN MINGW64 ~/Desktop/laxamana (master)
+$ git commit -m "1st"
+[master (root-commit) b211a2f] 1st
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+RYAN@RYAN MINGW64 ~/Desktop/laxamana (master)
+$ git commit --amend --reset-author -m "reset author"
+[master 7bbe3a7] reset author
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+RYAN@RYAN MINGW64 ~/Desktop/laxamana (master)
+branch 'Laxamana-iptq1' set up to track 'origin/Laxamana-iptq1'.ect.1))q1he next
