@@ -1,0 +1,14 @@
+
+Virtual Machine Specs
+Computer name: lastname-section-pc 5 points
+Base memory: 2048 MB 5 points 
+Processor: 2 5 points
+Password: your student number 5 points
+
+When done call the attention of your instructor
+
+If everyone executes this activity properly, we will reconsider your static website for your case study, though this may be subjected if there are groups who programmed their inventory system already.
+
+No noise and if you’re done quietly leave the room.
+
+
